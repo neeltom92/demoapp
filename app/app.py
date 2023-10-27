@@ -8,7 +8,7 @@ app = Flask(__name__)
 
 @app.route('/healthz')
 def health_check():
- 
+
     health_status = {
         'status': 'healthy',
         'message': 'Application is running smoothly',
