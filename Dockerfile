@@ -9,4 +9,4 @@ RUN pip install -r requirements.txt
 
 EXPOSE 80
 
-CMD ["gunicorn", "-w", "2", "-b", "0.0.0.0:80", "app:app"]
+CMD ["python", "app.py"]
